@@ -1,0 +1,135 @@
+body{
+    font-family: 'Roboto';
+    margin: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+    align-items: center;
+}
+
+header.firs-section,
+.awesome.firs-section{
+   margin-bottom: 0px;
+}
+a{
+   color:#f9faf8;
+   text-decoration: none;
+}
+ .logo{font-size: 24px;color:#f9faf8 ;font-weight: bold;
+} 
+ .links{
+    display: flex;
+    gap: 16px;
+ }
+ .firs-section{
+    background-color:#1f2937 ;
+    padding: 30px 150px;
+    justify-content: space-between; align-items: center;
+ }
+ .title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+ }
+ .subtitle{
+    font-size: 18px;
+    line-height: 1.2;
+    color: #e5e7eb;
+ }
+ button{
+    background-color: #3882f6;
+    border: none;
+    border-radius:6px ;
+    padding: 8px 15px;
+     color: #f9faf8;
+ }
+ .awesome{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-bottom: 50px;
+ }
+ .right{
+    background-color: gray;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+ }
+ .right img{width: 100%; height: auto; }
+ 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+} 
+/* second section */
+.secend-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+margin: 0;}
+.image-gallery{
+   display: flex;
+   gap: 10px;
+   margin: 5px 200px;
+   
+}
+figure img{
+   height: auto;
+   width: 150px;
+}
+h2{ 
+   font-size: 36px;
+   color: #1f2937;
+   font-weight: 900;
+}
+.secend-section{
+   margin-bottom: 70px;
+}
+/* third-section */
+.third-section{
+   background-color: #e5e7eb;
+      padding: 70px 300px;
+
+}
+.quote{
+   font-size: 36px;
+   color: #1f2937;
+   font-weight: 300;
+}
+.auth{font-weight: bold; text-align: right;}
+/* fourth-section */
+.fourth-section{
+   display: flex;
+   background-color: #3882f6;
+   margin: 30px 200px;
+   padding: 35px 70px;
+   justify-content: space-between;
+   border-radius: 8px;
+   align-items: center;
+}
+.sign-text p{
+   margin: 0;
+   color: #e5e7eb;
+}
+.fourth-section button{
+   border: 2px solid #f9faf8;
+   padding: 8px 30px;
+   font-size: 16px;
+   font-weight: bold;
+}
+.callOf{
+   font-size: 18px;
+   font-weight: bold;
+}
+footer{
+   background-color: #1f2937;
+   color: #e5e7eb;
+   text-align: center;
+   padding: 8px;
+}
